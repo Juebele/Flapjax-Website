@@ -2,6 +2,7 @@ img {
     width: auto;
     height: auto;
     margin: 10px;
+    padding: 10px;
 }
 
 h1 {
@@ -10,4 +11,8 @@ h1 {
 
 h2 {
     font-family: 'Sigmar', cursive;
+}
+
+main p {
+    font-size: x-large;
 }
