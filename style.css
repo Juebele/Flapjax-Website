@@ -2,10 +2,14 @@
     font-family: 'Ysabeau', sans-serif;
 }
 
-img {
+body {
+    background-image: linear-gradient(white, white, white, #FF0303);
+}
+
+/* img {
     margin: 10px;
     padding: 10px;
-}
+} */
 
 h1 {
     font-family: 'Sigmar', cursive;
@@ -19,9 +23,20 @@ h2 {
 
 main p {
     font-size: x-large;
-    margin: 15px;
+    margin: 10px;
+    padding: 10px;
 }
 
 main li {
     font-size: x-large;
 }
+
+.extra-pictures {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* .handsome {
+    background-size: cover;
+    min-height: 60vh;
+} */
