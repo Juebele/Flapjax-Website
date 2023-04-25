@@ -40,3 +40,9 @@ main li {
     background-size: cover;
     min-height: 60vh;
 } */
+
+.fancy {
+    text-decoration: none;
+    color: black;
+    font-family: 'Ysabeau', sans-serif;
+}
