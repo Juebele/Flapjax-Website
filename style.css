@@ -1,3 +1,7 @@
+* {
+
+}
+
 h1 {
     font-family: 'Sigmar', cursive;
     margin: 10px;
@@ -22,6 +26,77 @@ img {
 }
 
 .row{
+    display: flex; /* Lay out the items horizontally */
+    justify-content: center; /* Center items horizontally */
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.col {
+    margin: 0 15px; /* Space between items */
+    cursor: pointer; /* Change cursor on hover to indicate interactivity */
+}
+
+.col:hover {
+    color: #FF5733; /* Change color on hover; choose a color that fits your design */
+}
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items vertically */
+    }
+
+    .col {
+        margin: 10px 0; /* Vertical space between items */
+    }
+}
+
+#hero {
+    
+}
+
+/* Tablet Screens */
+@media screen and (min-width: 768px) {
+    #hero {
+        min-height: 450px;
+    }
+}
+
+/* Desktop Screens */
+@media screen and (min-width: 992px) {
+    #hero {
+        min-height: 600px;
+    }
+}
+
+/* Large Desktop Screens */
+@media screen and (min-width: 1200px) {
+    #hero {
+        min-height: 700px;
+    }
+}
+
+#hero-links {
+    padding: 20px 0; /* Space above and below the list */
+    text-align: center;
+}
+
+#hero-logo {
+    background-image: url(./assets/pancakesPlaid.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 600px;
     display: flex;
-    align-items: center;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    width: 100%;             /* Take full width of the parent container */
+    height: 100%;
+
+}
+
+#hero-logo img {
+    width: 50%;
 }
