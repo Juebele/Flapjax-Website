@@ -1,5 +1,10 @@
 * {
-
+font-family: 'Noto Sans', sans-serif;
+--red: #ED1C24;
+--yellow: #FFE74C;
+--blue: #00A7E1;
+--green: #42B366;
+--charcoal: #40474F;
 }
 
 h1 {
@@ -25,37 +30,30 @@ img {
     height: auto;
 }
 
-.row{
-    display: flex; /* Lay out the items horizontally */
-    justify-content: center; /* Center items horizontally */
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-}
+.row {}
 
-.col {
-    margin: 0 15px; /* Space between items */
-    cursor: pointer; /* Change cursor on hover to indicate interactivity */
-}
+.col {}
+
 
 .col:hover {
-    color: #FF5733; /* Change color on hover; choose a color that fits your design */
+    color: #FF5733;
+    /* Change color on hover; choose a color that fits your design */
 }
 
 @media screen and (max-width: 600px) {
     .row {
-        flex-direction: column; /* Stack items vertically */
-        align-items: center; /* Center items vertically */
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: center;
+        /* Center items vertically */
     }
 
     .col {
-        margin: 10px 0; /* Vertical space between items */
+        margin: 10px 0;
+        /* Vertical space between items */
     }
 }
 
-#hero {
-    
-}
 
 /* Tablet Screens */
 @media screen and (min-width: 768px) {
@@ -78,9 +76,38 @@ img {
     }
 }
 
+#hero {}
+
+#links-col {
+    margin: 0 40px;
+    /* Space between items */
+    cursor: pointer;
+    /* Change cursor on hover to indicate interactivity */
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+#links-row {
+    display: flex;
+    /* Lay out the items horizontally */
+    justify-content: center;
+    /* Center items horizontally */
+    list-style-type: none;
+    /* Remove bullet points */
+    padding: 0;
+    /* Remove default padding */
+    margin: 0 auto;
+    /* Remove default margin */
+}
+
 #hero-links {
-    padding: 20px 0; /* Space above and below the list */
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0;
+    /* This horizontally centers the .row if it has a specified width or max-width */
+    width: 100%;
 }
 
 #hero-logo {
@@ -90,9 +117,12 @@ img {
     background-repeat: no-repeat;
     min-height: 600px;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center;     /* Center vertically */
-    width: 100%;             /* Take full width of the parent container */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    width: 100%;
+    /* Take full width of the parent container */
     height: 100%;
 
 }
