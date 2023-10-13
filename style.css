@@ -30,12 +30,7 @@ img {
     height: auto;
 }
 
-.row {}
-
-.col {}
-
-
-.col:hover {
+#links-col:hover {
     color: #FF5733;
     /* Change color on hover; choose a color that fits your design */
 }
@@ -129,4 +124,20 @@ img {
 
 #hero-logo img {
     width: 50%;
+}
+
+#main {
+    display: flex;
+    width: 100%;
+}
+
+#big-pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#big-pictures img {
+    width: 100%;
+    height: auto;
 }
