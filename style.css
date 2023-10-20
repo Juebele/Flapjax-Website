@@ -196,6 +196,7 @@ img {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 5px;
 }
 
 #trust-images img {
@@ -220,14 +221,18 @@ img {
 
 #extra-pictures {
     background-color: var(--light-red);
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    justify-items: center;
 }
 
+#extra-pictures .row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping of columns */
+    overflow-x: auto; /* Allow horizontal scrolling if the content overflows */
+    width: 100%; /* Take up the whole screen width */
+    justify-content: center; /* Center the row horizontally */
+    justify-content: space-evenly;
+}
 #extra-pictures img {
     max-width: 200px;
     height: auto;
+    margin: 10px;
 }
