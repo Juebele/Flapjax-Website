@@ -21,37 +21,64 @@
 </head>
 
 <body>
-    <hero>
-        <div id="hero">
-            <div id="hero-links">
-                <ul class="row" id="links-row">
-                    <li class="col" id="links-col">Book us for an event</li>
-                    <li class="col" id="links-col">About us</li>
-                    <li class="col" id="links-col">Contact us</li>
-                </ul>
-            </div>
-            <div id="hero-logo">
-                <img src="assets/officialLogo.png" alt="this is the flapjax logo">
-            </div>
-        </div>
-    </hero>
-    <main>
-        <div id="main" class="row justify-content-center">
-            <div id="about" class="col-8 align-content-left">
-                <h2>About Flapjax</h2>
-                <div class="row">
-                    <div class="col">
-                        <img src="./assets/alex1.png" alt="This is a picture of a handsome man" class="col-12">
-                    </div>
-                    <div class="col">
-                        <p>Flapjax was founded in Athens in 2020 by handsome local entrepreneur Alex
-                            Barlowe. Alex is known for his creativity in the kitchen and this has led him to create a
-                            wacky assortment of flavors. You're in luck though, because he's now decided to share his
-                            creations with the masses.</p>
+    <header id="top">
+        <div>
+            <div class="row">
+                <div class="col-1" id="header-logo">
+                    <a href="#top" id="header-logo-link" class="d-flex justify-content-center align-items-center">
+                        <img src="assets/images/socialLogo.png" alt="this is the flapjax logo">
+                    </a>
+                </div>
+                <div class="col" id="header-links-group">
+                    <div class="row">
+                        <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Book Us For An Event</a>
+                        <a href="#main" class="col-auto header-link">Learn About Flapjax</a>
+                        <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Contact Us</a>
                     </div>
                 </div>
             </div>
-            <div id="big-pictures" class="col text-center w-100 justify-content-center flex-wrap">
+        </div>
+    </header>
+    <hero>
+        <div id="hero">
+            <div id="hero-logo">
+                <img src="assets/images/officialLogo.png" alt="this is the flapjax logo">
+            </div>
+        </div>
+    </hero>
+    <trust-builder>
+        <div id="trust-images">
+            <img src="./assets/images/accLogo.png" alt="this is the logo of Athens-Clarke County">
+            <img src="./assets/images/georgiaTheatreLogo.png" alt="this is a logo for the Georgia Theatre">
+            <img src="./assets/images/ugaLogo.png" alt="this is the UGA G-logo">
+            <img src="./assets/images/redAndBlackLogo.png" alt="this is the logo for the red and black">
+        </div>
+    </trust-builder>
+    <main>
+        <div id="main" class="container justify-content-center">
+            <div class="row">
+                <div class="col">
+                    <h2>About Flapjax</h2>
+                    <div id="contact-us-link">
+                        <a href="mailto: fjpancakes@gmail.com" target="_blank" id="contact-us">Contact Us</a>
+                    </div>
+                    <p>Flapjax is the brainchild of culinary enthusiast Alex Barlowe. Passionate about the art of
+                        pancake-making, Alex has spent years in the kitchen perfecting a medley of flapjack recipes,
+                        ranging from classic to creatively whimsical. Launched in 2020, Flapjax aims to transform
+                        ordinary events into memorable feasts with a delicious assortment of pancakes and beloved
+                        breakfast staples.</p>
+                    <p>Our versatile menu is tailored to cater to any occasion - be it a tailgate, a corporate
+                        brunch, or a birthday celebration. Our team ensures that each pancake is made to perfection,
+                        bringing joy and flavor to every bite. Ready to add a twist to your next event? Ask us how
+                        Flapjax can sprinkle a dash of delicious magic to make it unforgettable!</p>
+                </div>
+                <div class="col">
+                    <img src="./assets/images/alex1.png" alt="This is a picture of a handsome man" class="col-12">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- <div id="big-pictures" class="col text-center w-100 justify-content-center flex-wrap">
                 <div class="text-center">
                     <img src="./assets/pancakes1.png" alt="this is a random image">
                 </div>
@@ -61,33 +88,37 @@
                 <div class="">
                     <img src="./assets/pancakes3.png" alt="this is a random image">
                 </div>
-            </div>
-        </div>
-        <!-- <div id="contact" class="col-4">
+            </div> -->
+    <!-- <div id="contact" class="col-4">
                 <h2>Contact Us</h2>
                 <ul class="list-unstyled">
                     <a href="mailto: ‌fjpancakes@gmail.com" target="_blank">Send us an email</a>
                 </ul>
             </div> -->
 
-        <div id="extra-pictures" class="container row text-center extra-pictures">
-            <div class="col-3">
-                <img src="./assets/pancakes4.png" alt="this is a random image" class="col-12">
-            </div>
-            <div class="col-3">
-                <img src="./assets/pancakes5.png" alt="this is a random image" class="col-12">
-            </div>
-            <div class="col-3">
-                <img src="./assets/pancakes6.png" alt="this is a random image" class="col-12">
-            </div>
-            <div class="col-3">
-                <img src="./assets/pancakes7.png" alt="this is a random image" class="col-12">
-            </div>
+    <div id="extra-pictures" class="container row">
+        <div class="col-3">
+            <img src="./assets/images/pancakes4.png" alt="this is a random image" class="col-12">
         </div>
-    </main>
-    <footer>
-
-    </footer>
+        <div class="col-3">
+            <img src="./assets/images/pancakes5.png" alt="this is a random image" class="col-12">
+        </div>
+        <div class="col-3">
+            <img src="./assets/images/pancakes6.png" alt="this is a random image" class="col-12">
+        </div>
+        <div class="col-3">
+            <img src="./assets/images/pancakes7.png" alt="this is a random image" class="col-12">
+        </div>
+    </div>
+    <!-- <footer>
+        <div id="test-fonts">
+            <h1 id="normal">normal</h1>
+            <h1 id="semilight">semilight</h1>
+            <h1 id="light">light</h1>
+            <h1 id="ultralight">ultralight</h1>
+            <h1 id="thin">thin</h1>
+        </div>
+    </footer> -->
 
 
 </body>
