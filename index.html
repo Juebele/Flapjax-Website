@@ -21,22 +21,23 @@
 </head>
 
 <body>
+    <!-- The "top" id for the header lets us reference this section for our a-tags so we can link to it -->
     <header id="top">
-        <div>
-            <div class="row">
-                <div class="col-1" id="header-logo">
-                    <a href="#top" id="header-logo-link" class="d-flex justify-content-center align-items-center">
-                        <img src="assets/images/socialLogo.png" alt="this is the flapjax logo">
-                    </a>
-                </div>
-                <div class="col" id="header-links-group">
-                    <div class="row">
-                        <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Book Us For
-                            An Event</a>
-                        <a href="#main" class="col-auto header-link">Learn About Flapjax</a>
-                        <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Contact
-                            Us</a>
-                    </div>
+        <div class="row">
+            <!-- this column contains the social media logo and a link that will take the user back to the top of the page -->
+            <div class="col-1" id="header-logo-group">
+                <a href="#top" id="header-logo-link" class="d-flex justify-content-center align-items-center">
+                    <img src="assets/images/socialLogo.png" alt="this is the flapjax logo">
+                </a>
+            </div>
+            <!-- this column contains assorted links that either navigate the page or open a tab to send an email -->
+            <div class="col" id="header-links-group">
+                <div class="row" id="header-links-row">
+                    <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Book Us For
+                        An Event</a>
+                    <a href="#main" class="col-auto header-link">Learn About Flapjax</a>
+                    <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Contact
+                        Us</a>
                 </div>
             </div>
         </div>
@@ -44,11 +45,14 @@
     <hero>
         <div id="hero">
             <div id="hero-logo">
+                <!-- This image is only the flapjax logo; the background image is set in CSS -->
                 <img src="assets/images/officialLogo.png" alt="this is the flapjax logo">
             </div>
         </div>
     </hero>
+    <!-- This section contains reputable Athens organizations that flapjax has worked with -->
     <trust-builder>
+        <!-- these are placeholders; we need to remove ones that shouldn't be here and consider additional formatting -->
         <div id="trust-images">
             <img src="./assets/images/accLogo.png" alt="this is the logo of Athens-Clarke County">
             <img src="./assets/images/georgiaTheatreLogo.png" alt="this is a logo for the Georgia Theatre">
@@ -56,7 +60,9 @@
             <img src="./assets/images/redAndBlackLogo.png" alt="this is the logo for the red and black">
         </div>
     </trust-builder>
+    <!-- for now, this section is basically an 'about' section but I'm open to repurposing it and/or moving it -->
     <main>
+        <!-- removing the 'container' class below didn't fix the white gutter-->
         <div id="main" class="container justify-content-center">
             <div class="row">
                 <div class="col">
@@ -64,6 +70,7 @@
                     <div id="contact-us-link">
                         <a href="mailto: fjpancakes@gmail.com" target="_blank" id="contact-us">Contact Us</a>
                     </div>
+                    <!-- this marketing copy can be revised, but the space it takes up is about right -->
                     <p>Flapjax is the brainchild of culinary enthusiast Alex Barlowe. Passionate about the art of
                         pancake-making, Alex has spent years in the kitchen perfecting a medley of flapjack recipes,
                         ranging from classic to creatively whimsical. Launched in 2020, Flapjax aims to transform
@@ -75,28 +82,12 @@
                         Flapjax can sprinkle a dash of delicious magic to make it unforgettable!</p>
                 </div>
                 <div class="col">
-                    <img src="./assets/images/alex1.png" alt="This is a picture of a handsome man" class="col-12">
+                    <img src="./assets/images/alex1.png"
+                        alt="This is a picture of Alex Barlowe, the proprietor of flapjax" class="col-12">
                 </div>
             </div>
         </div>
     </main>
-    <!-- <div id="big-pictures" class="col text-center w-100 justify-content-center flex-wrap">
-                <div class="text-center">
-                    <img src="./assets/pancakes1.png" alt="this is a random image">
-                </div>
-                <div class="">
-                    <img src="./assets/pancakes2.png" alt="this is a random image">
-                </div>
-                <div class="">
-                    <img src="./assets/pancakes3.png" alt="this is a random image">
-                </div>
-            </div> -->
-    <!-- <div id="contact" class="col-4">
-                <h2>Contact Us</h2>
-                <ul class="list-unstyled">
-                    <a href="mailto: ‌fjpancakes@gmail.com" target="_blank">Send us an email</a>
-                </ul>
-            </div> -->
 
     <div id="extra-pictures">
         <div class="container">
@@ -116,7 +107,29 @@
             </div>
         </div>
     </div>
-    <!-- <footer>
+
+    <!-- these are additional pictures that can be implemented as needed
+    <div id="big-pictures" class="col text-center w-100 justify-content-center flex-wrap">
+                <div class="text-center">
+                    <img src="./assets/pancakes1.png" alt="this is a random image">
+                </div>
+                <div class="">
+                    <img src="./assets/pancakes2.png" alt="this is a random image">
+                </div>
+                <div class="">
+                    <img src="./assets/pancakes3.png" alt="this is a random image">
+                </div>
+            </div> -->
+    <!-- <div id="contact" class="col-4">
+                <h2>Contact Us</h2>
+                <ul class="list-unstyled">
+                    <a href="mailto: ‌fjpancakes@gmail.com" target="_blank">Send us an email</a>
+                </ul>
+            </div> -->
+
+
+    <!-- this section was used to test out the Cocogoose font sizes and to set them up in CSS
+    <footer>
         <div id="test-fonts">
             <h1 id="normal">normal</h1>
             <h1 id="semilight">semilight</h1>
