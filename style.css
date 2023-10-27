@@ -70,17 +70,18 @@ font-family: 'cocogoose-light', sans-serif;
 a {
     background-color: var(--blue);
     margin: 0px 50px 0px;
-    border-radius: 10px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
     text-decoration: none;
     color: white;
     font-family: cocogoose-thin;
     font-size: 1.5em;
+    transition: border-bottom 300ms, transform 300ms;
+
 }
 a:hover {
-    background-color: var(--red);
+    /* consider putting anything the a-tags have in common in here. In the meantime, I'll be adding these effects at the ID level */
 }
+
 
 h1 {
     font-family: cocogoose-normal;
@@ -102,6 +103,27 @@ p {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* styling for classes */
+.header-link {
+    font-family: cocogoose-light;
+    color: black;
+    background-color: transparent;
+}
+
+.header-link:hover {
+    border-bottom: 2px solid black;
+    transform: scale(1.05);
+}
+
+.photo-dump {
+    max-width: 200px;
+    
+}
+
+.used-image {
+    filter: brightness(.5);
 }
 /* styling for IDs */
 #hero-links {
@@ -130,6 +152,10 @@ img {
     height: 100%;
 
 }
+
+#test-image {
+    filter: grayscale();
+}
 #hero-logo img {
     width: 50%;
 }
@@ -139,15 +165,16 @@ img {
     align-items: stretch;
 }
 
-#big-pictures {
+#buy-flapjax {
+    background-color: var(--yellow);
+}
+
+#gallery-pictures {
     display: flex;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: row; /* Stack children vertically */
     justify-content: space-between;
 }
-#big-pictures img {
-    width: 100%;  /* Take full width */
-    object-fit: cover;  /* Ensures images cover their container without distorting */
-    flex-grow: 1;
+#gallery-pictures img {
 }
 
 #header-logo-group {
@@ -158,10 +185,12 @@ img {
     display: flex;
     justify-content: end;
     align-items: center;
-    background-color: var(--yellow);
 }
 #header-links-row {
     background-color: var(--yellow);
+    padding: 20px;
+    border-bottom-left-radius: 3em;
+    border-top-left-radius: 3em;
 }
 /* these IDs are used to set the font on a case-by-case basis */
 #normal {

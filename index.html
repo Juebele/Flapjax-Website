@@ -33,11 +33,11 @@
             <!-- this column contains assorted links that either navigate the page or open a tab to send an email -->
             <div class="col" id="header-links-group">
                 <div class="row" id="header-links-row">
-                    <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Book Us For
-                        An Event</a>
                     <a href="#main" class="col-auto header-link">Learn About Flapjax</a>
-                    <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Contact
+                    <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Where to Find
                         Us</a>
+                    <a href="mailto: fjpancakes@gmail.com" target="_blank" class="col-auto header-link">Book Us For An
+                        Event</a>
                 </div>
             </div>
         </div>
@@ -54,32 +54,71 @@
     <trust-builder>
         <!-- these are placeholders; we need to remove ones that shouldn't be here and consider additional formatting -->
         <div id="trust-images">
-            <img src="./assets/images/accLogo.png" alt="this is the logo of Athens-Clarke County">
-            <img src="./assets/images/georgiaTheatreLogo.png" alt="this is a logo for the Georgia Theatre">
             <img src="./assets/images/ugaLogo.png" alt="this is the UGA G-logo">
+            <img src="./assets/images/georgiaTheatreLogo.png" alt="this is a logo for the Georgia Theatre">
             <img src="./assets/images/redAndBlackLogo.png" alt="this is the logo for the red and black">
+            <img src="./assets/images/accLogo.png" alt="this is the logo of Athens-Clarke County">
+            <img src="./assets/images/jitteryJoe's.png" alt="this is the Jittery Joe's coffee shop logo"
+                id="test-image">
         </div>
     </trust-builder>
     <!-- for now, this section is basically an 'about' section but I'm open to repurposing it and/or moving it -->
     <main>
         <!-- removing the 'container' class below didn't fix the white gutter-->
-        <div id="main" class="container justify-content-center">
+        <div id="buy-flapjax">
+            <div id="flapjax-catering" class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="./assets/images/pancakesEspresso.png"
+                            alt="this is an image of Flapjax Dark Chocolate Expresso pancakes">
+                        <img src="./assets/images/pancakesPBJ.png" alt="this is a picture of Flapjax PB&J pancakes">
+                    </div>
+                    <div class="col" id="flapjax-catering">
+                        <h2>Cater your Event</h2>
+                        <p>Looking to spice up your event? Our versatile menu is tailored to
+                            match any occasion – whether it’s your company picnic or your
+                            child’s birthday. Choose the Flapjax flavors you want and our team
+                            will be there to make each one to perfection, served with a smile
+                            and a hot cup of Jittery Joe’s coffee. Questions? Drop us a line
+                            here and ask how we can bring our signature Flapjax to you!</p>
+                    </div>
+                </div>
+            </div>
+            <div id="flapjax-farmer-market" class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Find Us In The Wild</h2>
+                        <p>Ready to try Flapjax for yourself? Find us at the Athens Farmer’s Market every Saturday
+                            between
+                            8am and noon!
+                            address: 705 Sunset Drive, Athens GA
+                            Link: http://athensfarmersmarket.net/
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img src="./assets/images/pancakesOrangeCream.png"
+                            alt="this is a picture of Flapjax orange creamsicle pancakes" id="test-image">
+                        <img src="./assets/images/pancakesClassicJack.png"
+                            alt="this is a picture of Flapjax classic pancakes" id="test-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="about-flapjax" class="container">
             <div class="row">
                 <div class="col">
                     <h2>About Flapjax</h2>
                     <div id="contact-us-link">
                         <a href="mailto: fjpancakes@gmail.com" target="_blank" id="contact-us">Contact Us</a>
                     </div>
-                    <!-- this marketing copy can be revised, but the space it takes up is about right -->
-                    <p>Flapjax is the brainchild of culinary enthusiast Alex Barlowe. Passionate about the art of
-                        pancake-making, Alex has spent years in the kitchen perfecting a medley of flapjack recipes,
-                        ranging from classic to creatively whimsical. Launched in 2020, Flapjax aims to transform
-                        ordinary events into memorable feasts with a delicious assortment of pancakes and beloved
-                        breakfast staples.</p>
-                    <p>Our versatile menu is tailored to cater to any occasion - be it a tailgate, a corporate
-                        brunch, or a birthday celebration. Our team ensures that each pancake is made to perfection,
-                        bringing joy and flavor to every bite. Ready to add a twist to your next event? Ask us how
-                        Flapjax can sprinkle a dash of delicious magic to make it unforgettable!</p>
+                    <p>Flapjax is the brainchild of our founder Alex Barlowe.
+                        Passionate about perfecting breakfast, Alex would often find
+                        himself in the kitchen experimenting on a variety of creative
+                        recipes. From classic to whimsical, Alex perfected a medley of
+                        fun pancakes that he would share with friends. In 2020, Alex
+                        decided to turn his passion into a business and Flapjax was born!
+                        At Flapjax, we combine quality ingredients, a fearless spirit,
+                        and love for our neighbors to bring you an unforgettable breakfast experience!</p>
                 </div>
                 <div class="col">
                     <img src="./assets/images/alex1.png"
@@ -87,58 +126,98 @@
                 </div>
             </div>
         </div>
-    </main>
-
-    <div id="extra-pictures">
-        <div class="container">
+        <div id="flapjax-menu" class="container">
             <div class="row">
-                <div class="col-3">
-                    <img src="./assets/images/pancakes4.png" alt="this is a random image" class="col-12">
+                <div class="col">
+                    <img src="./assets/images/pancakesHoneyTeddyGraham.png"
+                        alt="this is a picture of Flapjax teddy grahams pancakes" id="test-image">
+                    <img src="./assets/images/pancakesCaptainCrunch.png"
+                        alt="this is a picture of Flapjax Captain Crunch pancakes" id="test-image">
                 </div>
-                <div class="col-3">
-                    <img src="./assets/images/pancakes5.png" alt="this is a random image" class="col-12">
-                </div>
-                <div class="col-3">
-                    <img src="./assets/images/pancakes6.png" alt="this is a random image" class="col-12">
-                </div>
-                <div class="col-3">
-                    <img src="./assets/images/pancakes7.png" alt="this is a random image" class="col-12">
+                <div class="col">
+                    <h2>The Flapjax Menu</h2>
+                    <p>We serve delicious, creative Flapjax and Jittery Joe’s Coffee, an Athens staple</p>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+    <!-- these are additional pictures that can be implemented as needed -->
+    <div id="gallery-pictures" class="">
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesEspresso.png"
+                alt="this is an image of Flapjax Dark Chocolate Expresso pancakes" class="used-image">
+        </div>
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesPBJ.png" alt="this is a picture of Flapjax PB&J pancakes"
+                class="used-image">
+        </div>
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesOrangeCream.png"
+                alt="this is a picture of Flapjax orange creamsicle pancakes" class="used-image">
+        </div>
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesClassicJack.png" alt="this is a picture of Flapjax classic pancakes"
+                class="used-image">
+        </div>
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesHoneyTeddyGraham.png"
+                alt="this is a picture of Flapjax teddy grahams pancakes" class="used-image">
+        </div>
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesCaptainCrunch.png"
+                alt="this is a picture of Flapjax Captain Crunch pancakes" class="used-image">
+        </div>
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesClaireCoffee.png" alt="this is a random image" class="">
+        </div>
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesPinaColada.png" alt="this is a random image" class="">
+        </div>
+        <div class="photo-dump">
+            <img src="./assets/images/pancakesLimonCello.png" alt="this is a random image" class="">
+        </div>
 
-    <!-- these are additional pictures that can be implemented as needed
-    <div id="big-pictures" class="col text-center w-100 justify-content-center flex-wrap">
-                <div class="text-center">
-                    <img src="./assets/pancakes1.png" alt="this is a random image">
+        <div id="extra-pictures">
+
+            <!-- These pictures used to be in the footer but will probably end up being removed to the gallery section -->
+            <!-- <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./assets/images/pancakesCaptainCrunch.png" alt="this is a random image" class="col-12">
                 </div>
-                <div class="">
-                    <img src="./assets/pancakes2.png" alt="this is a random image">
+                <div class="col-3">
+                    <img src="./assets/images/pancakesClaireCoffee.png" alt="this is a random image" class="col-12">
                 </div>
-                <div class="">
-                    <img src="./assets/pancakes3.png" alt="this is a random image">
+                <div class="col-3">
+                    <img src="./assets/images/pancakesPinaColada.png" alt="this is a random image" class="col-12">
                 </div>
-            </div> -->
-    <!-- <div id="contact" class="col-4">
+                <div class="col-3">
+                    <img src="./assets/images/pancakesLimonCello.png" alt="this is a random image" class="col-12">
+                </div>
+            </div>
+        </div> -->
+
+        </div>
+
+
+
+        <!-- this section was used to test out the Cocogoose font sizes and to set them up in CSS -->
+        <footer>
+            <div id="test-fonts">
+                <h1 id="normal">normal</h1>
+                <h1 id="semilight">semilight</h1>
+                <h1 id="light">light</h1>
+                <h1 id="ultralight">ultralight</h1>
+                <h1 id="thin">thin</h1>
+            </div>
+        </footer>
+
+        <!-- <div id="contact" class="col-4">
                 <h2>Contact Us</h2>
                 <ul class="list-unstyled">
                     <a href="mailto: ‌fjpancakes@gmail.com" target="_blank">Send us an email</a>
                 </ul>
             </div> -->
-
-
-    <!-- this section was used to test out the Cocogoose font sizes and to set them up in CSS
-    <footer>
-        <div id="test-fonts">
-            <h1 id="normal">normal</h1>
-            <h1 id="semilight">semilight</h1>
-            <h1 id="light">light</h1>
-            <h1 id="ultralight">ultralight</h1>
-            <h1 id="thin">thin</h1>
-        </div>
-    </footer> -->
-
 
 </body>
 
