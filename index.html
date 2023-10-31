@@ -64,16 +64,16 @@
     </trust-builder>
     <!-- for now, this section is basically an 'about' section but I'm open to repurposing it and/or moving it -->
     <main>
-        <!-- removing the 'container' class below didn't fix the white gutter-->
         <div id="buy-flapjax">
             <div id="flapjax-catering" class="container">
-                <div class="row">
-                    <div class="col">
+                <div class="row" id="flapjax-catering-row">
+                    <div class="col test-images">
                         <img src="./assets/images/pancakesEspresso.png"
-                            alt="this is an image of Flapjax Dark Chocolate Expresso pancakes">
-                        <img src="./assets/images/pancakesPBJ.png" alt="this is a picture of Flapjax PB&J pancakes">
+                            alt="this is an image of Flapjax Dark Chocolate Expresso pancakes" id="test-image-2" class="image-left">
+                        <img src="./assets/images/pancakesPBJ.png" alt="this is a picture of Flapjax PB&J pancakes"
+                            id="test-image-2" class="image-right">
                     </div>
-                    <div class="col" id="flapjax-catering">
+                    <div class="col buy-flapjax-copy" >
                         <h2>Cater your Event</h2>
                         <p>Looking to spice up your event? Our versatile menu is tailored to
                             match any occasion – whether it’s your company picnic or your
@@ -85,8 +85,8 @@
                 </div>
             </div>
             <div id="flapjax-farmer-market" class="container">
-                <div class="row">
-                    <div class="col">
+                <div class="row" id="flapjax-farmer-market-row">
+                    <div class="col buy-flapjax-copy">
                         <h2>Find Us In The Wild</h2>
                         <p>Ready to try Flapjax for yourself? Find us at the Athens Farmer’s Market every Saturday
                             between
@@ -94,12 +94,27 @@
                             address: 705 Sunset Drive, Athens GA
                             Link: http://athensfarmersmarket.net/
                         </p>
+                        <!-- <p>Test Test Test TestTest Test Test TestTest Test Test TestTest Test Test TestTest Test Test TestTest Test Test TestTest Test Test TestTest Test Test TestTest Test Test TestTest Test Test TestTest Test Test Test</p> -->
                     </div>
-                    <div class="col">
+                    <div class="col test-images">
                         <img src="./assets/images/pancakesOrangeCream.png"
-                            alt="this is a picture of Flapjax orange creamsicle pancakes" id="test-image">
+                            alt="this is a picture of Flapjax orange creamsicle pancakes" id="test-image-2" class="image-left">
                         <img src="./assets/images/pancakesClassicJack.png"
-                            alt="this is a picture of Flapjax classic pancakes" id="test-image">
+                            alt="this is a picture of Flapjax classic pancakes" id="test-image-2" class="image-right">
+                    </div>
+                </div>
+            </div>
+            <div id="flapjax-menu" class="container">
+                <div class="row" id="flapjax-menu-row">
+                    <div class="col">
+                        <img src="./assets/images/pancakesHoneyTeddyGraham.png"
+                            alt="this is a picture of Flapjax teddy grahams pancakes" id="test-image-2" class="image-left">
+                        <img src="./assets/images/pancakesCaptainCrunch.png"
+                            alt="this is a picture of Flapjax Captain Crunch pancakes" id="test-image-2" class="image-right">
+                    </div>
+                    <div class="col buy-flapjax-copy">
+                        <h2>The Flapjax Menu</h2>
+                        <p>We serve delicious, creative Flapjax and Jittery Joe’s Coffee, an Athens staple</p>
                     </div>
                 </div>
             </div>
@@ -123,20 +138,6 @@
                 <div class="col">
                     <img src="./assets/images/alex1.png"
                         alt="This is a picture of Alex Barlowe, the proprietor of flapjax" class="col-12">
-                </div>
-            </div>
-        </div>
-        <div id="flapjax-menu" class="container">
-            <div class="row">
-                <div class="col">
-                    <img src="./assets/images/pancakesHoneyTeddyGraham.png"
-                        alt="this is a picture of Flapjax teddy grahams pancakes" id="test-image">
-                    <img src="./assets/images/pancakesCaptainCrunch.png"
-                        alt="this is a picture of Flapjax Captain Crunch pancakes" id="test-image">
-                </div>
-                <div class="col">
-                    <h2>The Flapjax Menu</h2>
-                    <p>We serve delicious, creative Flapjax and Jittery Joe’s Coffee, an Athens staple</p>
                 </div>
             </div>
         </div>
