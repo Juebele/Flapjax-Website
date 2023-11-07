@@ -66,9 +66,21 @@ font-family: 'cocogoose-light', sans-serif;
         min-height: 600px;
     }
 }
+
+footer {
+    background-color: var(--light-red);
+    margin-top: 2em;
+    /* padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em; */
+}
+
+footer p {
+    font-size: 1.5em;
+}
 /* styling for HTML elements */
 a {
-    background-color: var(--blue);
+    background-color: var(--light-red);
     margin: 0px 50px 0px;
     cursor: pointer;
     text-decoration: none;
@@ -122,7 +134,7 @@ img {
     
 }
 .buy-flapjax-copy {
-    background-color: whitesmoke;
+    background-color: var(--light-yellow);
     border-radius: 1em;
 }
 
@@ -192,7 +204,6 @@ img {
 
 
 #buy-flapjax {
-    background-color: var(--light-yellow);
     overflow: hidden;
 }
 
@@ -232,7 +243,7 @@ img {
     align-items: center;
 }
 #header-links-row {
-    background-color: var(--yellow);
+    background-color: var(--light-yellow);
     padding: 20px;
     border-bottom-left-radius: 3em;
     border-top-left-radius: 3em;
@@ -258,6 +269,10 @@ img {
     /* the float property makes this appear to the right of the text even though it's above the p-tags in the HTML file */
     float: right;
     margin: 10px;
+}
+
+#contact-us-link a {
+    border-radius: 1em;
 }
 
 #contact-us {
@@ -291,6 +306,15 @@ img {
 #header-logo-group img {
     max-width: 100px;
     max-height: auto;
+}
+
+#about-flapjax-copy {
+    background-color: var(--light-yellow);
+    border-radius: 1em;
+}
+
+#alex-image {
+    border-radius: 1em;
 }
 
 #extra-pictures {
